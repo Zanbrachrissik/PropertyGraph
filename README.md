@@ -7,11 +7,14 @@ JDK version 8+.
 Main class: com.propertygraph.graphToDot.Write
 ```
 
-#### Input
+#### Usage
 ```
-usage: [-d <arg>] [-p] [-c] [-a]
+$ cd out/artifacts/PropertyGraph_jar
+$ java -jar PropertyGraph.jar [-d <projectPath>] [-p] [-c] [-a]
 -d projectPath  
 -p: choose to generate PDG
 -c: choose to generate CFG
 -a: choose to generate AST
 ```
+**Example**
+`java -jar PropertyGraph.jar -d test/src -p -c -a`
